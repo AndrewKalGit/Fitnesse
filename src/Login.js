@@ -18,7 +18,7 @@ function Login(props) {
                 <label htmlFor="uname"><b>Username</b></label>
                 <input type="text" placeholder='Enter username' name='uname' required></input>
                 <label htmlFor="psw"><b>Password</b></label>
-                <input type="text" placeholder='Enter password' name='psw' required></input>
+                <input type="password" placeholder='Enter password' name='psw' required></input>
                 <button type="submit">Login</button>
                 <label>
                     <p>Remember me</p>
